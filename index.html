@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <title>Kenangan Senja</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar star -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Kenangan<span>Senja</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contac">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamberger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section star -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>mari nikmati secangkir <span>kopi</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
+          recusandae?
+        </p>
+        <a href="#" class="cta">beli</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about section star -->
+    <section id="about" class="about">
+      <h2><span>tentang</span> kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/images.jpeg" alt="kopi"/>
+        </div>
+        <div class="content">
+        <h3>kenapa memilih kedai kopi</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+          nulla quidem illo. Dolores, distinctio, sint
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, sit!
+         </p>
+         </div>
+      </div>
+    </section>
+    <!-- about section end -->
+    
+    <!-- menu section star-->
+    <section id="menu" class="menu">
+      <h2><span>MENU</span> KAMI</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum impedit iure odit vitae numquam. Distinctio.</p>
+      
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/espresso.jpg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-harga">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/espresso.jpg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-harga">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/espresso.jpg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-harga">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/espresso.jpg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-harga">IDR 15K</p>
+        </div>
+      </div>
+    </section>
+     <!-- menu section end-->
+     
+     <!-- contact section star -->
+     <section id="contact" class="contact">
+       <h2><span>kontak</span> KAMI</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, ex.</p>
+      
+      <div class="row">
+        <iframe src="https://www.google.com/maps/place/Subang,+Subang+Regency,+West+Java/@-6.5636791,107.7455998,13z/data=!4m6!3m5!1s0x2e693c919ece3ed5:0x630f121657291f0!8m2!3d-6.5622888!4d107.7607951!16zL20vMGdjODZt" class="map"></iframe>
+        
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama">
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email">
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no headphone">
+          </div>
+        
+        <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+     </section>
+     <!-- contact section star -->
+     
+     
+     <!-- pooter -->
+     <footer>
+       <div class="sosials">
+         <a href=""><i data-feather="instagram"></i></a>
+         <a href=""><i data-feather="twitter"></i></a>
+         <a href=""><i data-feather="facebook"></i></a>
+       </div>
+       
+       <div class="links">
+         <a href="#home">home</a>
+         <a href="#about">tentang kami</a>
+         <a href="#menu">menu</a>
+         <a href="#contact">kontak</a>
+       </div>
+       
+       <div class="credit">
+         <p>created by <a href="">sendymaulana</a>• | &©opyright: 2023.</p>
+       </div>
+     </footer>
+     
+     <!-- pooter -->
+     
+    <!-- feather-icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
